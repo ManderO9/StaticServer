@@ -9,8 +9,8 @@ app.MapGet("/", async (context) =>
 {
     // Set status code to 200
     context.Response.StatusCode = 200;
-    // Set content to type to html
 
+    // Set content type to html
     context.Response.ContentType = MediaTypeNames.Text.Html;
     
     // Get the path of the web root folder
